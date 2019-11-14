@@ -1,0 +1,59 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+.row {
+  text-align: center;
+}
+
+.row:first-child {
+  margin-bottom: 20px;
+}
+
+.prod {
+  width: 300px;
+  height: 372px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.prod:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("../../img/like.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  z-index: 1;
+  display: none;
+}
+
+.prod:hover:after {
+  display: block;
+}
+
+p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background: green;
+}
+
+.red {
+  background: red;
+}
