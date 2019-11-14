@@ -1,0 +1,23 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  padding: 20px;
+  background: red;
+}
+
+.row {
+  text-align: center;
+}
+
+.row > div {
+  width: 300px;
+  height: 372px;
+  display: inline-block;
+}
